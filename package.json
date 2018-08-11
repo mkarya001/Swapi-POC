@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mkarya001/project-management.git"
+    "url": "git+https://github.com/mkarya001/Swapi-POC.git"
   },
   "keywords": [
     "react",
@@ -24,9 +24,9 @@
   "author": "Mukesh Kumar",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mkarya001/project-management/issues"
+    "url": "https://github.com/mkarya001/Swapi-POC/issues"
   },
-  "homepage": "https://github.com/mkarya001/project-management#readme",
+  "homepage": "https://github.com/mkarya001/Swapi-POC#readme",
   "babel": {
     "presets": [
       "es2015",
