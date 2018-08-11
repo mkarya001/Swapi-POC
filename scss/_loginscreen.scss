@@ -1,0 +1,116 @@
+.login-screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100VH - 70px);
+
+    form{
+        border-radius: 5px;
+        display: block;
+        width: 360px;
+        background: #fff;
+        padding: 35px;
+        box-shadow: 0 0 4px rgba(0,0,0,0.2);
+
+        h2{
+            text-align: center; 
+        }
+
+        fieldset{
+            padding: 15px 0;
+
+            label{
+                display: block;
+            }
+
+            input{
+                margin: 10px 0 0 0;
+                display: block;
+                width: 100%;
+                border-radius: 3px;
+                border: none;
+                padding: 14px 0;
+                text-indent: 14px;
+                outline: none;
+                box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+            }
+
+            
+        }
+
+        &>div{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 5px;
+
+            a{
+                color: #205473;
+                font-size: 12px;
+            }
+            button{
+                height: 50px;
+                width: 100%;
+                border-radius: 5px;
+                border: none;
+                outline: none;
+                background: #205473;
+                color: white;
+                text-transform: uppercase;
+                font-weight: bold;
+                cursor: pointer;
+                letter-spacing: 1px;
+                
+            }
+        }
+    }
+}
+
+
+.category-list{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #000;
+    list-style: none;
+    padding: 30px;
+    border-radius: 5px;
+
+    li{
+        background: #ccc;
+        padding: 12px;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        P{
+            word-break:break-all;
+table-layout:fixed
+        }
+    }
+}
+
+
+.unauth-section {
+    background: white;
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 10px;
+    a{
+        height: 50px;
+                width: 80%;
+                border-radius: 5px;
+                border: none;
+                outline: none;
+                background: #205473;
+                color: white;
+                text-transform: uppercase;
+                font-weight: bold;
+                cursor: pointer;
+                letter-spacing: 1px;
+                display: inline-block;
+    line-height: 50px;
+    text-decoration: none;
+    }
+}
